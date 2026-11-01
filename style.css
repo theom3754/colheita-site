@@ -1,3 +1,12 @@
-h1 {
-    color: green;
+body {
+    background-color: #F1F8E9;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #2E7D32;
+}
+a {
+    color: #EF6C00;
 }
