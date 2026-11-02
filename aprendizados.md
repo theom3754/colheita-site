@@ -62,3 +62,51 @@ Teste: "se eu embaralhar os itens, muda o sentido?" Se sim, ol.
 
 ### Trabalho em equipe
 - Se achar uma ideia melhor que a do ticket, avisar antes de mudar.
+## CSS: o básico
+CSS = aparência. HTML = estrutura.
+Fica num arquivo separado (style.css) para mudar o site inteiro em um lugar só.
+
+### Conectar o CSS ao HTML
+<link rel="stylesheet" href="style.css">
+- Vai no <head>, NÃO no <header>.
+- Cada página precisa da sua própria linha de link.
+
+### Cuidado com nomes parecidos
+- <head>: informações sobre a página (title, charset, link do CSS). Não aparece na tela.
+- <header>: cabeçalho visível da página (nome da empresa).
+- <title>: texto da aba do navegador.
+- <h1>: título grande dentro da página.
+
+### Estrutura de uma regra
+seletor {
+    propriedade: valor;
+}
+- Seletor: QUEM vai mudar (aponta para as tags do HTML).
+- Propriedade: O QUE vai mudar.
+- Valor: COMO vai ficar.
+Não esquecer o ; no fim de cada linha e as chaves { }.
+
+### Seletores
+- h1 { }: todos os h1.
+- h1, h2 { }: vírgula = h1 E h2, com o mesmo estilo.
+- footer a { }: espaço = os links que estão DENTRO do footer.
+Antes de mudar uma regra, perguntar: "quem mais é afetado por isso?"
+
+### Cores
+- Códigos hexadecimais: #2E7D32. Três pares: vermelho, verde e azul.
+- Usam números de 0 a 9 e letras de A a F.
+- color: cor do texto. background-color: cor do fundo.
+
+### Herança (cascata)
+Estilo aplicado numa caixa passa para tudo que está dentro dela.
+Ex: font-family no body muda a fonte da página inteira.
+
+### Erros silenciosos
+CSS não dá erro: se não entende uma linha, ignora e segue.
+Ficar de olho no sublinhado amarelo do VS Code e no número de problemas na aba.
+
+## Modelo de caixa (box model)
+Todo elemento é uma caixa com 4 camadas, de dentro para fora:
+1. Conteúdo
+2. padding: espaço DENTRO da borda
+3. border: a

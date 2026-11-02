@@ -3,21 +3,38 @@ body {
     color: #333333;
     font-family: Arial, sans-serif;
     max-width: 800px;
-margin: 0 auto;
-padding: 0 24px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: #2E7D32;
 }
+
 a {
     color: #EF6C00;
 }
+
 img {
     width: 400px;
 }
+
 footer {
     margin-top: 32px;
     border-top: 2px solid #2E7D32;
     padding-top: 16px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer a {
+    color: #2E7D32;
+}
+header {
+    border-bottom: 2px solid #2E7D32;
+    padding-bottom: 16px;
 }
