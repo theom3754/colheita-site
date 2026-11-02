@@ -110,3 +110,9 @@ Todo elemento é uma caixa com 4 camadas, de dentro para fora:
 1. Conteúdo
 2. padding: espaço DENTRO da borda
 3. border: a
+### Truques do COL-7
+- Lista sem bolinha: list-style: none; + padding: 0; (sempre juntos)
+- Ctrl + F5: recarrega ignorando o cache (cópia antiga guardada pelo navegador)
+- Seletor que não encontra nenhum elemento não dá erro: só não faz nada
+- Lados: top (cima), bottom (baixo, NÃO é button/botão), left, right
+- Tags curtas: a (link), p (parágrafo), ul (lista com bolinha), ol (lista numerada), li (item)

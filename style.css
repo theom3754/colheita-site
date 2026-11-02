@@ -34,7 +34,18 @@ footer ul {
 footer a {
     color: #2E7D32;
 }
+
 header {
     border-bottom: 2px solid #2E7D32;
     padding-bottom: 16px;
+}
+
+.botao {
+    background-color: #EF6C00;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 8px 0;
 }
