@@ -2,6 +2,9 @@ body {
     background-color: #F1F8E9;
     color: #333333;
     font-family: Arial, sans-serif;
+    max-width: 800px;
+margin: 0 auto;
+padding: 0 24px;
 }
 
 h1, h2 {
@@ -9,4 +12,12 @@ h1, h2 {
 }
 a {
     color: #EF6C00;
+}
+img {
+    width: 400px;
+}
+footer {
+    margin-top: 32px;
+    border-top: 2px solid #2E7D32;
+    padding-top: 16px;
 }
