@@ -116,3 +116,24 @@ Todo elemento é uma caixa com 4 camadas, de dentro para fora:
 - Seletor que não encontra nenhum elemento não dá erro: só não faz nada
 - Lados: top (cima), bottom (baixo, NÃO é button/botão), left, right
 - Tags curtas: a (link), p (parágrafo), ul (lista com bolinha), ol (lista numerada), li (item)
+## Modelo de caixa (box model)
+Todo elemento é uma caixa com 4 camadas, de dentro para fora:
+1. content (conteúdo): o texto, a imagem, o que aparece de fato.
+2. padding (preenchimento): espaço DENTRO da borda, em volta do conteúdo.
+   Pega a cor de fundo da caixa. Aumentar = a caixa cresce.
+3. border (borda): a linha em volta da caixa.
+   Ex: border: 2px solid #2E7D32; (espessura, estilo, cor)
+4. margin (margem): espaço FORA da borda. É transparente.
+   Aumentar = a caixa fica do mesmo tamanho e só afasta os vizinhos.
+
+Analogia: quadro na parede.
+- content = a foto
+- padding = o fundo branco em volta da foto
+- border = a moldura
+- margin = o espaço na parede até o próximo quadro
+
+Teste que fiz no .botao:
+- padding maior: o botão cresceu, o laranja aumentou.
+- margin maior: o botão ficou igual, só se afastou dos outros elementos.
+
+Atalho para ver o box model: F12 > clicar com o botão direito no elemento > Inspecionar > aba Computed.
