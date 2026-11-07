@@ -52,6 +52,7 @@ header {
     border-radius: 8px;
     display: inline-block;
     margin: 8px 0;
+    transition: background-color 0.3s;
 }
 
 section {
@@ -71,7 +72,11 @@ section {
 header h1 {
     margin-bottom: 0;
 }
+
 .capa {
     margin-top: 48px;
 }
-    
+
+.botao:hover {
+    background-color: #E65100;
+}
