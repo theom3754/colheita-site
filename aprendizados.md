@@ -137,3 +137,44 @@ Teste que fiz no .botao:
 - margin maior: o botão ficou igual, só se afastou dos outros elementos.
 
 Atalho para ver o box model: F12 > clicar com o botão direito no elemento > Inspecionar > aba Computed.
+## Treino 2 (COL-8, COL-9 e ajuste da capa)
+
+### HTML quebrado não dá erro
+- O navegador "conserta" HTML quebrado sozinho, sem avisar.
+- A página pode parecer normal mesmo com erro. Por isso vale revisar o código.
+  Ex: <link rel="stylesheet" href="style.css" sem o > no final.
+
+### Jeitos de escrever o padding
+- padding: 24px; → 24px nos 4 lados.
+- padding: 12px 24px; → 12px em cima/baixo, 24px nas laterais.
+- padding-top: 16px; → só em cima.
+
+### Borda (border)
+- 3 valores, nesta ordem: espessura, estilo, cor.
+  Ex: border: 1px solid #C5E1A5;
+- border = 4 lados. border-bottom = só embaixo.
+- border-radius: arredonda os cantos (radius = raio da curva).
+
+### Cartão (card) com box model
+Juntar as camadas numa regra só:
+- background-color: o fundo do cartão.
+- padding: afasta o texto da beirada.
+- border: a linha em volta.
+- border-radius: os cantos arredondados.
+- margin: o espaço entre um cartão e outro.
+
+### Tag x classe
+- Tag (img { }): muda TODAS as imagens.
+- Classe (.capa { }): muda só quem tem class="capa" no HTML.
+- Classe no CSS começa com ponto.
+- Uma regra no style.css vale para todas as páginas que usam esse arquivo.
+
+### Truques
+- Elemento "grudado" no vizinho? Geralmente a solução é a margin.
+- Para ENXERGAR uma caixa: pintar o fundo de uma cor forte (ex: amarelo) e depois voltar.
+- Ponto e vírgula (;) em todas as linhas, até na última.
+
+### Git
+- git add arquivo1 arquivo2: adiciona vários arquivos de uma vez.
+- Um commit = uma ideia. Arquivos que só funcionam juntos vão no mesmo commit.
+- git commit: salva no meu computador. git push: envia para o GitHub.
