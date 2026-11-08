@@ -206,3 +206,13 @@ Juntar as camadas numa regra só:
 - Ctrl + Shift + K: apaga a linha inteira.
 - F12 em qualquer site: dá pra ver o HTML e o CSS e pegar ideias.
 - HTML = estrutura (paredes). CSS = aparência (pintura).
+## COL-12: links do rodapé lado a lado
+
+### O que fiz
+- Usei `display: flex` na `ul` do rodapé para deixar os links em fila.
+- Usei `gap: 24px` para criar espaço entre os links.
+
+### O que aprendi
+- O `flex` vai na caixa (`ul`), e quem se organiza são os itens de dentro (`li`).
+- O seletor `footer ul` só afeta as listas que estão dentro do rodapé.
+- Uma regra já pronta no CSS, como a `nav ul`, serve de exemplo para escrever outra.
