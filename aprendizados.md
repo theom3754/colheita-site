@@ -178,3 +178,31 @@ Juntar as camadas numa regra só:
 - git add arquivo1 arquivo2: adiciona vários arquivos de uma vez.
 - Um commit = uma ideia. Arquivos que só funcionam juntos vão no mesmo commit.
 - git commit: salva no meu computador. git push: envia para o GitHub.
+## Treino 4 (COL-11: menu de navegação)
+
+### Tag nav
+- nav = navigation (navegação). Agrupa os links principais do site.
+- Não muda a aparência, mas avisa o navegador, o Google e leitores de tela: "este é o menu".
+- Dentro dela, costuma ir uma lista: nav > ul > li > a.
+- Cada página é um arquivo separado: o menu precisa estar em todas.
+
+### Mesmo link em vários lugares
+- Menu (topo): mapa do site, igual em todas as páginas. Discreto.
+- Botão / CTA (call to action): chama atenção pra uma ação. Chamativo.
+- Rodapé: atalhos pra quem chegou no fim da página.
+- Quando tudo é destaque, nada é destaque.
+
+### Flexbox
+- display: flex vai no PAI. Quem se mexe são os FILHOS (ficam lado a lado).
+  Ex: nav ul { display: flex; } → os li ficam em fila.
+- gap: espaço ENTRE os filhos (não antes do primeiro nem depois do último).
+- Lista sem bolinhas: list-style: none; + padding: 0;
+
+### Seletor com espaço
+- nav ul = a ul que está DENTRO do nav. A ul do rodapé não é afetada.
+- nav a:hover = link dentro do nav, com o mouse em cima.
+
+### Truques
+- Ctrl + Shift + K: apaga a linha inteira.
+- F12 em qualquer site: dá pra ver o HTML e o CSS e pegar ideias.
+- HTML = estrutura (paredes). CSS = aparência (pintura).
