@@ -33,6 +33,8 @@ footer {
 footer ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    gap: 24px;
 }
 
 footer a {
@@ -88,6 +90,7 @@ nav ul {
     padding: 0;
     gap: 24px;
 }
+
 nav a {
     color: #2E7D32;
     text-decoration: none;
